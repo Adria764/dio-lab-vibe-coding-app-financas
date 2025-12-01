@@ -1,6 +1,8 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de controle de Financeiro com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+PRD revisado no copilot web:
+
+´´´´ markdown
 
 ## ✨ O que é Vibe Coding
 
@@ -73,17 +75,91 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+> Interações com o lovable
+
+> Crie um App de Finanças Pessoais com base no seguinte PRD: (Documento de Requisitos de Produto) {PRD}
+> Tentei criar uma meta chamada Reserva de Emergencia mas ela não apareceu no componente. A impressão de tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar?
+
+> Resultado final no lovable
+> https://lovable.dev/projects
+
+> <img width="914" height="587" alt="image" src="https://github.com/user-attachments/assets/c615baac-a466-45bd-b892-0241fbc23db4" />
+
+# 📱 Minhas Finanças – MVP
+
+## 🎯 Objetivo
+Criar um aplicativo de **Organização de Finanças Pessoais** que funcione por meio de **conversas naturais** com o usuário.  
+A proposta é simplificar o controle financeiro, eliminando formulários e planilhas complexas.
+
+---
+
+## ❗ Problema
+A maioria dos apps de finanças exige **muita entrada manual** e oferece **pouca personalização**, o que desmotiva os usuários iniciantes.  
+Este projeto busca resolver isso com uma **experiência conversacional** e **recomendações automáticas** de economia.
+
+---
+
+## 👥 Público-Alvo
+Pessoas que desejam começar a organizar suas finanças de forma **prática e sem complicação**, especialmente **iniciantes**.
+
+---
+
+## 🔑 Funcionalidades-Chave
+1. Registrar gastos via **chat em linguagem natural**.
+2. **Classificação automática** das transações.
+3. Definir e acompanhar **metas financeiras**.
+4. Receber **dicas de economia** do “Agente Financeiro”.
+5. Visualizar **relatórios simples e personalizados**.
+
+---
+
+## 🛠️ Plano de MVP
+
+### 📱 Telas Principais
+
+| Tela                     | Descrição                                                                 |
+|--------------------------|---------------------------------------------------------------------------|
+| **Boas-Vindas**          | Apresenta o propósito do app e convida o usuário a iniciar uma conversa. |
+| **Chat Financeiro**      | Interface principal para registrar gastos, metas e receber dicas.         |
+| **Resumo Financeiro**    | Mostra receitas, despesas e saldo atual de forma visual e simples.        |
+| **Transações**           | Lista de gastos e ganhos com classificação automática.                    |
+| **Metas Financeiras**    | Permite criar metas e acompanhar o progresso.                             |
+| **Relatórios Personalizados** | Gráficos e insights gerados com base nas conversas e hábitos.     |
+
+---
+
+### ⚙️ Recursos Essenciais
+
+- **PLN (Processamento de Linguagem Natural):** Para entender frases como “gastei 50 reais com mercado”.
+- **Classificação Inteligente:** Categoriza automaticamente os gastos.
+- **Motor de Metas:** Acompanha objetivos como “economizar R$ 500 até o fim do mês”.
+- **Agente Financeiro com IA:** Envia dicas personalizadas com base no comportamento do usuário.
+- **Sistema de Relatórios:** Gera visualizações simples com base nas transações registradas.
+
+---
+
+## ✅ Validação Inicial
+
+**Objetivo:** Verificar se usuários iniciantes conseguem usar o app sem tutoriais complexos.
+
+**Etapas:**
+- Teste com 10 a 20 usuários iniciantes.
+- Métricas observadas:
+  - Facilidade de registrar gastos via chat.
+  - Clareza dos relatórios.
+  - Engajamento com metas e dicas.
+- Feedback qualitativo:
+  - O que foi intuitivo?
+  
+   **Reflexão:
+  
+  - O que funcionou bem?
+  - O Refinamento do PRD previamente feito no copilot ajudou muito, pois os créditos no lovable acabaram em apenas duas interações.
+ 
+  - O que não funcionou como o esperado?
+  - Na interação eu pedi para que o App tivesse a funcionalidade de Metas (que ele criasse as metas), mas devido a pouca quantidade de créditos eu não consegui interagir para corrigir essa funcionalidade.
+    
   - O que aprendeu sobre conversar com IAs?
+  - Aprendi que é basicamente como conversar com uma pessoa, quanto mais detalhes você dá melhor será a interação. Gostei bastante na interação com a IA.
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
